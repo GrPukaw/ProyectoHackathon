@@ -448,14 +448,7 @@ window.addEventListener('scroll', debouncedToggleScrollTopButton);
 function trackEvent(category, action, label) {
     // Aquí puedes integrar Google Analytics o similar
     console.log(`Event tracked: ${category} - ${action} - ${label}`);
-    
-    // Ejemplo con Google Analytics:
-    // if (typeof gtag !== 'undefined') {
-    //     gtag('event', action, {
-    //         'event_category': category,
-    //         'event_label': label
-    //     });
-    // }
+
 }
 
 // Trackear clicks en botones importantes
